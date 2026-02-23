@@ -3,6 +3,7 @@
 int main (void) {
 
     char *arg[] = { "/bin/ls", "-l", 0 };
+
     if (fork() == 0) {
         printf("In child process:\n");
         execv(arg[0], arg);
@@ -10,6 +11,8 @@ int main (void) {
     }
 
     sleep(5);
+    printf("Execution continues in parent process\n");
     return 0;
 
 }
+
