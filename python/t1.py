@@ -13,7 +13,7 @@ for x in f.read().split():
 
     if num < mn:
         mn = num
-    if num > mx:
+    if num > mx:    
         mx = num
 
 print("Сумма:", total)

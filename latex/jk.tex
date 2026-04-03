@@ -12,6 +12,8 @@
 \usepackage{amssymb}
 \usepackage{fancyhdr}
 \usepackage{multirow}
+\usepackage{cite}
+\usepackage{hyperref}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -23,20 +25,28 @@
 \begin{document}
 \tableofcontents
 \newpage
+
 \section{Математические формулы}
+
 \subsection{Предел функции}
+
+\setcounter{equation}{0}
 \begin{equation}
-\lim_{x\to0} \frac{\sin x}{x}=1   
+\lim_{x\to0} \frac{\sin x}{x}=1
+\label{eq:sin_limit}  
 \end{equation}
+
 \begin{equation}
 \lim_{x\to0} (1+x)^\frac{1}{x}=e   
 \end{equation}
+
 \begin{equation}
 \sum_{k=0}^{n} a_kD(D-1)...(D-k+1)y=0 
 \end{equation}
 
 \subsection{Производные}
 
+\setcounter{equation}{0}
 \begin{equation}
 \frac{d}{dx}(x^n) = nx^{n-1}
 \end{equation}
@@ -52,7 +62,9 @@
 \begin{equation}
 \frac{d}{dx}(e^x) = e^x
 \end{equation}
+
 \subsection{Интегралы}
+\setcounter{equation}{0}
 
 \begin{equation}
 \int x^n dx = \frac{x^{n+1}}{n+1} + C
@@ -71,6 +83,7 @@
 \end{equation}
 
 \subsection{Пределы и непрерывность}
+\setcounter{equation}{0}
 
 \begin{equation}
 \lim_{x \to a} f(x) = L
@@ -93,6 +106,7 @@
 \end{equation}
 
 \subsection{Ряды}
+\setcounter{equation}{0}
 
 \begin{equation}
 \sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
@@ -115,6 +129,7 @@ e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}
 \end{equation}
 
 \subsection{Производные сложных функций}
+\setcounter{equation}{0}
 
 \begin{equation}
 \frac{d}{dx}(f(g(x))) = f'(g(x)) \cdot g'(x)
@@ -137,6 +152,7 @@ e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}
 \end{equation}
 
 \subsection{Интегралы (расширенные)}
+\setcounter{equation}{0}
 
 \begin{equation}
 \int e^x dx = e^x + C
@@ -159,6 +175,7 @@ e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}
 \end{equation}
 
 \subsection{Формула Тейлора (одна переменная)}
+\setcounter{equation}{0}
 
 \begin{equation}
 f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \dots + \frac{f^{(n)}(a)}{n!}(x-a)^n + R_n
@@ -170,6 +187,7 @@ R_n = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}
 \end{equation}
 
 \subsection{Дифференциальное исчисление}
+\setcounter{equation}{0}
 
 Производная функции:
 \begin{equation}
@@ -187,6 +205,7 @@ d^2 f = f''(x)dx^2
 \end{equation}
 
 \subsubsection{Правила дифференцирования}
+\setcounter{equation}{0}
 
 \begin{equation}
 (af + bg)' = af' + bg'
@@ -205,6 +224,7 @@ d^2 f = f''(x)dx^2
 \end{equation}
 
 \subsubsection{Дифференцирование элементарных функций}
+\setcounter{equation}{0}
 
 \begin{equation}
 (x^n)' = nx^{n-1}
@@ -227,6 +247,7 @@ d^2 f = f''(x)dx^2
 \end{equation}
 
 \subsubsection{Высшие производные}
+\setcounter{equation}{0}
 
 \begin{equation}
 \frac{d^n}{dx^n} x^m = m(m-1)(m-2)\dots(m-n+1)x^{m-n}
@@ -240,6 +261,14 @@ d^2 f = f''(x)dx^2
 \frac{d^n}{dx^n} \sin x = \sin\left(x + \frac{n\pi}{2}\right)
 \end{equation}
 
+пример ссылки на формулу~\ref{eq:sin_limit}
 
+
+\newpage
+\section{Список литературы}
+\begin{thebibliography}{1}
+В.А.Зорич.
+\textit{Математический анализ. Часть 1}.
+\end{thebibliography}
 
 \end{document}
