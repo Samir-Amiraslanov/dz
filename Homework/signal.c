@@ -5,10 +5,7 @@
 
 void mysignal(int signum) {
     printf("сигнал %d \n", signum);
-    
-    
 }
-
 int main() {
     signal(SIGINT, mysignal);
     while(1) {

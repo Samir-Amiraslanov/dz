@@ -12,6 +12,7 @@ int main() {
         int status;
         wait(&status); 
         printf("Родитель: Ребенок завершился с кодом %d\n", WEXITSTATUS(status));
+        printf("%d\n",status);
         
     }
     return 0;
