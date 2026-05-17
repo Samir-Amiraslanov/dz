@@ -1,0 +1,123 @@
+\documentclass{beamer}
+
+% Кодировка и языки
+\usepackage[T2A]{fontenc}        
+\usepackage[utf8]{inputenc}   
+\usepackage[russian]{babel}
+
+% Поля
+%\usepackage[left=25mm, right=15mm, top=20mm, bottom=20mm]{geometry} % Настройка полей
+
+% Для вставки изображений
+\usepackage{graphicx}
+
+% Математические символы
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{multirow}
+
+\title{Домашнее задание по математическому анализу}
+\author{Самир}
+\date{\today}
+
+\usetheme{Madrid}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}{Содержание работы}
+В данной презентации рассмотрены следующие темы:
+\begin{itemize}
+    \item Определение и примеры замечательных пределов.
+    \item Основные правила дифференцирования и таблица производных.
+    \item Формула Тейлора и остаточный член в форме Лагранжа.
+    \item Список используемой учебной литературы.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Замечательные пределы}
+В ходе выполнения домашнего задания были рассмотрены ключевые пределы:
+
+\begin{block}{Первый замечательный предел}
+\begin{equation}
+\lim_{x\to0} \frac{\sin x}{x}=1
+\label{eq:slide_sin_limit}  
+\end{equation}
+\end{block}
+
+\begin{block}{Второй замечательный предел}
+\begin{equation}
+\lim_{x\to0} (1+x)^\frac{1}{x}=e   
+\end{equation}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Правила дифференцирования}
+Основные правила вычисления производных для базовых операций:
+\begin{enumerate} 
+    \item \textbf{Линейность операции:} 
+    $$(af + bg)' = af' + bg'$$
+    \item \textbf{Производная произведения:} 
+    $$(fg)' = f'g + fg'$$
+    \item \textbf{Производная частного:} 
+    $$\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2}$$
+\end{enumerate} 
+\end{frame}
+
+
+
+\begin{frame}{Таблица производных}
+Сводная таблица производных
+
+\begin{table}
+\centering
+\small
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Класс функции} & \textbf{Функция $f(x)$} & \textbf{Производная $f'(x)$} \\
+\hline
+\multirow{2}{*}{Степенная} & $x^n$ & $n x^{n-1}$ \\
+\cline{2-3}
+ & $C$ (const) & $0$ \\
+\hline
+\multirow{2}{*}{Тригонометрическая} & $\sin x$ & $\cos x$ \\
+\cline{2-3}
+ & $\cos x$ & $-\sin x$ \\
+\hline
+Показательная & $e^x$ & $e^x$ \\
+\hline
+\end{tabular}
+\caption{Основные производные элементачных функций}
+\end{table}
+\end{frame}
+
+
+\begin{frame}{Формула Тейлора}
+Разложение функции в окрестности точки $a$:
+\begin{equation*}
+f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \dots + \frac{f^{(n)}(a)}{n!}(x-a)^n + R_n
+\end{equation*}
+
+\begin{block}{Остаточный член в форме Лагранжа}
+\begin{equation*}
+R_n = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}
+\end{equation*}
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Список литературы}
+При подготовке материалов использовалась следующая учебная литература:
+
+\begin{thebibliography}{1}
+\bibitem{zorich_slide}
+В.А.Зорич.
+\textit{Математический анализ. Часть 1}.
+\end{thebibliography}
+\end{frame}
+
+\end{document}
