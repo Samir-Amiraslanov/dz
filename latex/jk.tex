@@ -23,6 +23,7 @@
 
 
 \begin{document}
+На рисунке~\ref{fig:zorich} представлен В.А. Зорич, автор упомянутого учебника~\cite{zorich}.
 \tableofcontents
 \newpage
 
@@ -45,7 +46,7 @@
 \end{equation}
 
 \subsection{Производные}
-
+Сводная информация по дифференцированию представлена в таблице~\ref{tab:derivatives}.
 \setcounter{equation}{0}
 \begin{equation}
 \frac{d}{dx}(x^n) = nx^{n-1}
@@ -262,13 +263,45 @@ d^2 f = f''(x)dx^2
 \end{equation}
 
 пример ссылки на формулу~\ref{eq:sin_limit}
+Больше формул можно найти в учебнике~\cite{zorich}.
 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Класс функции} & \textbf{Функция $f(x)$} & \textbf{Производная $f'(x)$} \\
+\hline
+\multirow{2}{*}{Степенная} & $x^n$ & $n x^{n-1}$ \\
+\cline{2-3}
+ & $C$ (const) & $0$ \\
+\hline
+\multirow{2}{*}{Тригонометрическая} & $\sin x$ & $\cos x$ \\
+\cline{2-3}
+ & $\cos x$ & $-\sin x$ \\
+\hline
+Показательная & $e^x$ & $e^x$ \\
+\hline
+\end{tabular}
+\caption{Основные производные элементарных функций}
+\label{tab:derivatives}
+\end{table}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{Zorich.png}
+\caption{В.А. Зорич во время лекции}
+\label{fig:zorich}
+\end{figure}
 
 \newpage
 \section{Список литературы}
 \begin{thebibliography}{1}
+
+\bibitem{zorich}
 В.А.Зорич.
 \textit{Математический анализ. Часть 1}.
+
 \end{thebibliography}
 
 \end{document}

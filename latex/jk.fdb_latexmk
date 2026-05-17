@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775236705.18005 "c:/Users/Admin/OneDrive/Desktop/proc/latex/jk.tex" "jk.pdf" "jk" 1775236706.09706 0
+["pdflatex"] 1779025443.68961 "c:/proc/latex/jk.tex" "jk.pdf" "jk" 1779025444.62679 0
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1775235470 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1773861905 29472 a0c567b006e301c1b8bbe09598f2a233 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1773861911 36852 b06420528020f24aff80bf8381278275 ""
@@ -101,11 +101,12 @@
   "C:/miktex/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/miktex/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/miktex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Admin/OneDrive/Desktop/proc/latex/jk.tex" 1775236704 5632 2e05b3389b5f97a438e8e41e1b8b77ec ""
-  "jk.aux" 1775236705 2445 d18fc1ee368c725a44161143e7f731a8 "pdflatex"
-  "jk.out" 1775236705 3133 712ca7603da51e87d8dd1300e981ca72 "pdflatex"
-  "jk.tex" 1775236704 5632 2e05b3389b5f97a438e8e41e1b8b77ec ""
-  "jk.toc" 1775236705 1526 bc8938866d2fe9dbae0827f50c91f25c "pdflatex"
+  "Zorich.png" 1779025361 290275 fe5d27fcf83995e26c66ef8b322bba47 ""
+  "c:/proc/latex/jk.tex" 1779025442 6827 23e17de9d75efdc615484d91aad6e648 ""
+  "jk.aux" 1779025444 3063 481d36fc552b80ca492496df8b5462b6 "pdflatex"
+  "jk.out" 1779025444 3133 712ca7603da51e87d8dd1300e981ca72 "pdflatex"
+  "jk.tex" 1779025442 6827 23e17de9d75efdc615484d91aad6e648 ""
+  "jk.toc" 1779025444 1526 bc8938866d2fe9dbae0827f50c91f25c "pdflatex"
   (generated)
   "jk.aux"
   "jk.log"

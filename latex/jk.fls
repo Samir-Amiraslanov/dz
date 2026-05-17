@@ -1,6 +1,6 @@
-PWD c:\Users\Admin\OneDrive\Desktop\proc\latex
+PWD c:\proc\latex
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Admin\OneDrive\Desktop\proc\latex\jk.tex
+INPUT c:\proc\latex\jk.tex
 OUTPUT jk.log
 INPUT C:\miktex\tex\latex\base\article.cls
 INPUT C:\miktex\tex\latex\base\article.cls
@@ -182,6 +182,13 @@ OUTPUT jk.toc
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1440.tfm
+INPUT .\Zorich.png
+INPUT .\Zorich.png
+INPUT .\Zorich.png
+INPUT .\Zorich.png
+INPUT .\Zorich.png
+INPUT .\Zorich.png
+INPUT .\Zorich.png
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\lati1200.tfm
 INPUT jk.aux
 INPUT .\jk.out
