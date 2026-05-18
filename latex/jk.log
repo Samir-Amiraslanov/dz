@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.18)  17 MAY 2026 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.18)  18 MAY 2026 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1314,17 +1314,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.3}) h
 l.261 \begin{equation}
                       
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Zorich.png, id=113, 494.59781pt x 395.97937pt>
-File: Zorich.png Graphic file (type png)
-<use Zorich.png>
-Package pdftex.def Info: Zorich.png  used on input line 292.
-(pdftex.def)             Requested size: 338.58632pt x 271.07506pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1332,6 +1321,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+<Zorich.png, id=118, 494.59781pt x 395.97937pt>
+File: Zorich.png Graphic file (type png)
+<use Zorich.png>
+Package pdftex.def Info: Zorich.png  used on input line 295.
+(pdftex.def)             Requested size: 338.58632pt x 271.07506pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1339,7 +1334,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <./Zorich.png>] (jk.aux)
+[5 <./Zorich.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6] (jk.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1348,17 +1351,17 @@ Package rerunfilecheck Info: File `jk.out' has not changed.
 (rerunfilecheck)             Checksum: 712CA7603DA51E87D8DD1300E981CA72;3133.
  ) 
 Here is how much of TeX's memory you used:
- 12983 strings out of 467867
- 194821 string characters out of 5435169
- 627321 words of memory out of 5000000
- 41677 multiletter control sequences out of 15000+600000
+ 12990 strings out of 467867
+ 194862 string characters out of 5435169
+ 625394 words of memory out of 5000000
+ 41680 multiletter control sequences out of 15000+600000
  638106 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,433b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on jk.pdf (5 pages, 618558 bytes).
+Output written on jk.pdf (6 pages, 624528 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

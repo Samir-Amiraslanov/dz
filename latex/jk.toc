@@ -11,5 +11,5 @@
 \contentsline {subsection}{\numberline {1.9}Дифференциальное исчисление}{4}{subsection.1.9}%
 \contentsline {subsubsection}{\numberline {1.9.1}Правила дифференцирования}{4}{subsubsection.1.9.1}%
 \contentsline {subsubsection}{\numberline {1.9.2}Дифференцирование элементарных функций}{4}{subsubsection.1.9.2}%
-\contentsline {subsubsection}{\numberline {1.9.3}Высшие производные}{4}{subsubsection.1.9.3}%
-\contentsline {section}{\numberline {2}Список литературы}{5}{section.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}Высшие производные}{5}{subsubsection.1.9.3}%
+\contentsline {section}{\numberline {2}Список литературы}{6}{section.2}%

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779025443.68961 "c:/proc/latex/jk.tex" "jk.pdf" "jk" 1779025444.62679 0
-  "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1775235470 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1779101397.49475 "c:/proc/latex/jk.tex" "jk.pdf" "jk" 1779101398.73645 0
+  "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779025778 81088 29d6fa367ac022d1b69251d68c0742e6 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1773861905 29472 a0c567b006e301c1b8bbe09598f2a233 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk" 1773861911 36852 b06420528020f24aff80bf8381278275 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk" 1773862810 45168 9e6306e56ce3d1043c7883ff7f676986 ""
@@ -102,11 +102,11 @@
   "C:/miktex/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/miktex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Zorich.png" 1779025361 290275 fe5d27fcf83995e26c66ef8b322bba47 ""
-  "c:/proc/latex/jk.tex" 1779025442 6827 23e17de9d75efdc615484d91aad6e648 ""
-  "jk.aux" 1779025444 3063 481d36fc552b80ca492496df8b5462b6 "pdflatex"
-  "jk.out" 1779025444 3133 712ca7603da51e87d8dd1300e981ca72 "pdflatex"
-  "jk.tex" 1779025442 6827 23e17de9d75efdc615484d91aad6e648 ""
-  "jk.toc" 1779025444 1526 bc8938866d2fe9dbae0827f50c91f25c "pdflatex"
+  "c:/proc/latex/jk.tex" 1779101395 7312 914a64b30bafab59bbaf49c4d6cce60c ""
+  "jk.aux" 1779101398 3122 8afca86304d0be95b245350573e16f9d "pdflatex"
+  "jk.out" 1779101398 3133 712ca7603da51e87d8dd1300e981ca72 "pdflatex"
+  "jk.tex" 1779101395 7312 914a64b30bafab59bbaf49c4d6cce60c ""
+  "jk.toc" 1779101398 1526 37dda8d5c1fd620155b9f3b63703eba6 "pdflatex"
   (generated)
   "jk.aux"
   "jk.log"
