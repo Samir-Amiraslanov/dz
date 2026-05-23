@@ -7,6 +7,31 @@ def build(n, edges):
         graph[v].append(u)
     return graph
 
+def proxod2(start, graph):
+    """
+    обход в глубину .
+    Проверка на связаность и циклы
+    """
+    stack = [(start, -1, 0)]
+    max_glub = 0
+    
+    while stack:
+        u, parent, glub = stack.pop()
+        if glub > max_glub:
+            max_glub = glub
+        for x in graph[u]:
+            if x != parent:
+                
+                    
+                
+                stack.append((x, u,glub + 1))
+                
+    return max_glub
+
+
+
+
+
 def proxod(start, n, graph):
     """
     обход в глубину .
@@ -44,7 +69,8 @@ with open("input.txt") as f:
         graph = build(n, edges)
         if n > 0 and proxod(0, n, graph):
             trees_count += 1
-
+            max_glub = proxod2(0,graph)
+            print(max_glub)
         G = nx.Graph()
         G.add_nodes_from(range(n))
         G.add_edges_from(edges)
